@@ -22,7 +22,7 @@ export default function App() {
             <BeaniesPage />
             {/* this home page route should list all the beanies */}
           </Route>
-          <Route exact path="/beanies/:id">
+          <Route exact path="/beanieBabies/:id">
             <BeanieDetail />
           </Route>
         </Switch>
